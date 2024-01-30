@@ -31,7 +31,7 @@ public class SpanOfArray {
             }
         }
 
-        int res = max-min;
+        int res = max-min; 
         System.out.println();
         System.out.println("answer: "+ res);
     }
