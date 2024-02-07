@@ -33,6 +33,5 @@ public class ReverseArrayWay2 {
         for(int a : arr){
             System.out.print(a + " ");
         }
-        System.out.println(arr);
     }
 }
