@@ -12,13 +12,14 @@ public class RecursionPrintArray {
         }
         
         System.out.println("output is: ");
-        displayArray(arr , n-1);
+        displayArray(arr , n-1);   
     }
 
     public static void displayArray( int[] arr , int index){
         if( index == -1){
             return;
         }
+
         displayArray(arr, index - 1);
         System.out.println(arr[index]);
     }
